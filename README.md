@@ -13,7 +13,7 @@ This project involves analyzing employee data from the provided dataset to deriv
 
 ## Data Sources
 
-The dataset used in this project consists of three tables: `Department`, `Employee`, and `Salary`. The data was obtained from [w3schools](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) for educational purposes. The dataset provides information about employees, their departments, and salary details.
+The dataset used in this project consists of three tables: `Department`, `Employee`, and `Salary`.  The dataset provides information about employees, their departments, and salary details.
 
 ## Code Structure
 
@@ -26,13 +26,19 @@ The dataset used in this project consists of three tables: `Department`, `Employ
 
 The first query calculates the total yearly salaries of employees across designations, showing only designations with results ordered by department name.
 
+![Screenshot 2023-11-15 231259](https://github.com/corleonethe3rd/Employee-Data-Analysis-Project--Sql-Analysis/assets/73728752/903aec1d-6d50-4c8d-b9f6-8163556a3ba3)
+
 ### 2. Employee Names and Departments
 
 The second query displays the names of all employees along with their department names. It includes employees with no assigned department and sorts the results by employee name.
 
+![Screenshot 2023-11-15 231321](https://github.com/corleonethe3rd/Employee-Data-Analysis-Project--Sql-Analysis/assets/73728752/3520c4cd-381e-46d1-99c1-718dc665bfa1)
+
 ### 3. Average Yearly Increment
 
 The third query determines the average yearly increment for employees in each department, showing only departments with an average yearly increment greater than 5000. Results are ordered by the average yearly increment in descending order.
+
+![Screenshot 2023-11-15 231353](https://github.com/corleonethe3rd/Employee-Data-Analysis-Project--Sql-Analysis/assets/73728752/f5a66ab4-8943-4f65-9a76-b92d4c87d5bf)
 
 ## Future Work
 
@@ -44,9 +50,9 @@ Potential future work includes enhancing the analysis by incorporating more comp
 - ChatGPT: Utilized for assistance in formulating SQL queries.
 - YouTube: Watched tutorials for SQL syntax and best practices.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE.md). The dataset is subject to its own licensing terms, available at the source provided.
 
-Feel free to contribute, report issues, or suggest improvements!
+
+
+
 
